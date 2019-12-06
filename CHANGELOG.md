@@ -1,4 +1,4 @@
-## {{ create_date }}
+## 6 December 2019
 
 ### 0.0.0
 
