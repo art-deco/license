@@ -3,10 +3,12 @@ const renameMaps = {  }
 import { Component, render, h } from '@externs/preact'
 import { makeIo, init, start } from './__competent-lib'
 import Ellipsis from '../components/ellipsis.jsx'
+import GithubBadge from '../components/github-badge.jsx'
 import SocialButtons from 'splendid/build/components/social-buttons'
 
 const __components = {
   'ellipsis': Ellipsis,
+  'github-badge': GithubBadge,
   'social-buttons': SocialButtons,
 }
 
@@ -14,8 +16,16 @@ const io = makeIo()
 
 /** @type {!Array<!preact.PreactProps>} */
 const meta = [{
+  key: 'github-badge',
+  id: 'cf27b',
+  props: {
+    owner: 'art-deco',
+    name: 'license',
+  },
+},
+{
   key: 'social-buttons',
-  id: 'cc6e3',
+  id: 'ccfab',
   props: {
     url: 'https://art-deco.github.io/license/',
     meta: true,
